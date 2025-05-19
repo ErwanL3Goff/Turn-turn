@@ -15,7 +15,7 @@
       "attack": "img/guerrier_attack.png",
       "guard": "img/guerrier_guard.png",
       "counter": "img/guerrier_counter.png",
-      "portrait": "img/guerrier_portrait.png"
+      "portrait": "images/Baki/cell.jpg"
     },
     "techniques": [
       {
@@ -54,7 +54,7 @@
       "attack": "img/mage_attack.png",
       "guard": "img/mage_guard.png",
       "counter": "img/mage_counter.png",
-      "portrait": "img/mage_portrait.png"
+      "portrait": "images/Yujiro/cell.jpg"
     },
     "techniques": [
       {
@@ -93,7 +93,7 @@
       "attack": "img/tank_attack.png",
       "guard": "img/tank_guard.png",
       "counter": "img/tank_counter.png",
-      "portrait": "img/tank_portrait.png"
+      "portrait": "images/Kaoru/cell.jpg"
     },
     "techniques": [
       {
@@ -132,7 +132,7 @@
       "attack": "img/archere_attack.png",
       "guard": "img/archere_guard.png",
       "counter": "img/archere_counter.png",
-      "portrait": "img/archere_portrait.png"
+      "portrait": "images/Doppo/cell.jpg"
     },
     "techniques": [
       {
@@ -171,7 +171,7 @@
       "attack": "img/assassin_attack.png",
       "guard": "img/assassin_guard.png",
       "counter": "img/assassin_counter.png",
-      "portrait": "img/assassin_portrait.png"
+      "portrait": "images/Mjr/cell.jpg"
     },
     "techniques": [
       {
@@ -210,7 +210,7 @@
       "attack": "img/soigneuse_attack.png",
       "guard": "img/soigneuse_guard.png",
       "counter": "img/soigneuse_counter.png",
-      "portrait": "img/soigneuse_portrait.png"
+      "portrait": "images/Pickle/cell.jpg"
     },
     "techniques": [
       {
@@ -249,7 +249,7 @@
       "attack": "img/chevalier_attack.png",
       "guard": "img/chevalier_guard.png",
       "counter": "img/chevalier_counter.png",
-      "portrait": "img/chevalier_portrait.png"
+      "portrait": "images/Myamoto/cell.jpg"
     },
     "techniques": [
       {
