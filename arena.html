@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baki - Arène</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="arena-page">
+    <div class="container">
+        <header>
+            <h1>Baki</h1>
+            <h2>Arène de combat</h2>
+        </header>
+
+        <main>
+            <div class="arena">
+                <div class="player fighter" id="player1-arena">
+                    <div class="fighter-info">
+                        <h3 id="player1-name-arena">Joueur 1</h3>
+                        <p id="player1-class-arena"></p>
+                        <div class="health-container">
+                            <div class="health-bar">
+                                <div id="player1-health-bar" class="health-value"></div>
+                            </div>
+                            <span id="player1-health-value">0/0</span>
+                        </div>
+                        <div class="quote" id="player1-quote"></div>
+                    </div>
+                    <div class="fighter-portrait">
+                        <img id="player1-image" src="img/placeholder.png" alt="Joueur 1">
+                    </div>
+                </div>
+                
+                <div class="battle-log">
+                    <div id="turn-indicator">Tour 1</div>
+                    <div id="current-player">C'est au tour du Joueur 1</div>
+                    <div id="battle-messages">
+                        <p>Le combat commence !</p>
+                    </div>
+                </div>
+
+                <div class="player fighter" id="player2-arena">
+                    <div class="fighter-portrait">
+                        <img id="player2-image" src="img/placeholder.png" alt="Joueur 2">
+                    </div>
+                    <div class="fighter-info">
+                        <h3 id="player2-name-arena">Joueur 2</h3>
+                        <p id="player2-class-arena"></p>
+                        <div class="health-container">
+                            <div class="health-bar">
+                                <div id="player2-health-bar" class="health-value"></div>
+                            </div>
+                            <span id="player2-health-value">0/0</span>
+                        </div>
+                        <div class="quote" id="player2-quote"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="actions" id="actions-panel">
+                <div class="action-group">
+                    <button class="action-btn" id="attack-btn">Attaque basique</button>
+                    <button class="action-btn" id="guard-btn">Garde</button>
+                    <button class="action-btn" id="counter-btn">Contre</button>
+                </div>
+                <div class="techniques-actions" id="techniques-panel">
+                    <h4>Techniques spéciales</h4>
+                    <div class="techniques-buttons" id="techniques-buttons">
+                        <!-- Les boutons des techniques seront générés ici dynamiquement -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="game-over" id="game-over-panel" style="display: none;">
+                <h3 id="winner-text">Joueur 1 gagne !</h3>
+                <div class="final-stats">
+                    <div class="final-stat" id="damage-dealt">
+                        <span>Dégâts infligés: 0</span>
+                    </div>
+                    <div class="final-stat" id="techniques-used">
+                        <span>Techniques utilisées: 0</span>
+                    </div>
+                </div>
+                <button id="play-again-btn">Rejouer</button>
+                <button id="character-select-btn">Changer de personnages</button>
+            </div>
+        </main>
+
+        <footer>
+            <p>Combat Ultimate - Le jeu de combat tour par tour inspiré des plus grands combattants</p>
+        </footer>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>

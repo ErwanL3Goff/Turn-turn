@@ -1,0 +1,275 @@
+[
+  {
+    "id": 1,
+    "name": "Baki Hanma",
+    "class": "Tout terrain",
+    "health": 120,
+    "maxHealth": 120,
+    "power": 8,
+    "defense": 7,
+    "speed": 9,
+    "description": "Fils de Yujiro Hanma, le plus fort du monde. Baki cherche à surpasser son père.",
+    "quote": "Le seul endroit où je peux me prouver est l'arène.",
+    "images": {
+      "idle": "img/guerrier_idle.png",
+      "attack": "img/guerrier_attack.png",
+      "guard": "img/guerrier_guard.png",
+      "counter": "img/guerrier_counter.png",
+      "portrait": "img/guerrier_portrait.png"
+    },
+    "techniques": [
+      {
+        "name": "Frappe furtive",
+        "damage": 25,
+        "maxUses": 3,
+        "remainingUses": 3,
+        "description": "Une frappe rapide et précise qui surprend l'adversaire.",
+        "image": "img/guerrier_tech1.png",
+        "type": "physical"
+      },
+      {
+        "name": "Dash du cafard",
+        "damage": 40,
+        "maxUses": 1,
+        "remainingUses": 1,
+        "description": "Une technique de combat secrète qui frappe l'adversaire avec une vitesse fulgurante.",
+        "image": "img/guerrier_tech2.png",
+        "type": "physical"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Yujiro Hanma",
+    "class": "Tout terrain",
+    "health": 80,
+    "maxHealth": 80,
+    "power": 10,
+    "defense": 4,
+    "speed": 7,
+    "description": "Connu comme l'être le plus fort du monde, Yujiro est un combattant sans égal.",
+    "quote": "Je suis le prédateur au sommet de tous les êtres vivants.",
+    "images": {
+      "idle": "img/mage_idle.png",
+      "attack": "img/mage_attack.png",
+      "guard": "img/mage_guard.png",
+      "counter": "img/mage_counter.png",
+      "portrait": "img/mage_portrait.png"
+    },
+    "techniques": [
+      {
+        "name": "Frappe écrasante",
+        "damage": 30,
+        "maxUses": 4,
+        "remainingUses": 4,
+        "description": "Une attaque puissante qui brise les défenses de l'adversaire.",
+        "image": "img/mage_tech1.png",
+        "type": "physical"
+      },
+      {
+        "name": "Extermination",
+        "damage": 50,
+        "maxUses": 1,
+        "remainingUses": 1,
+        "description": "La technique ultime du démon de combat, capable de terrasser n'importe quel adversaire.",
+        "image": "img/mage_tech2.png",
+        "type": "physical"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Kaoru Hayanama",
+    "class": "Grappler",
+    "health": 150,
+    "maxHealth": 150,
+    "power": 6,
+    "defense": 9,
+    "speed": 4,
+    "description": "Le roi du judo, spécialiste des prises et projections.",
+    "quote": "Je n'ai besoin que d'une seule prise pour gagner.",
+    "images": {
+      "idle": "img/tank_idle.png",
+      "attack": "img/tank_attack.png",
+      "guard": "img/tank_guard.png",
+      "counter": "img/tank_counter.png",
+      "portrait": "img/tank_portrait.png"
+    },
+    "techniques": [
+      {
+        "name": "Poigne explosive",
+        "damage": 20,
+        "maxUses": 3,
+        "remainingUses": 3,
+        "description": "Une prise qui projette l'adversaire au sol avec une force impressionnante.",
+        "image": "img/tank_tech1.png",
+        "type": "grapple"
+      },
+      {
+        "name": "Poing du Yakuza",
+        "damage": 10,
+        "maxUses": 5,
+        "remainingUses": 5,
+        "description": "Une série de coups rapides qui peuvent être enchaînés plusieurs fois.",
+        "image": "img/tank_tech2.png",
+        "type": "physical"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Doppo Orochi",
+    "class": "Karateka",
+    "health": 90,
+    "maxHealth": 90,
+    "power": 7,
+    "defense": 6,
+    "speed": 8,
+    "description": "Grand maître du karaté, Doppo a perfectionné ses techniques au fil des années.",
+    "quote": "Une vie entière d'entraînement pour un seul coup parfait.",
+    "images": {
+      "idle": "img/archere_idle.png",
+      "attack": "img/archere_attack.png",
+      "guard": "img/archere_guard.png",
+      "counter": "img/archere_counter.png",
+      "portrait": "img/archere_portrait.png"
+    },
+    "techniques": [
+      {
+        "name": "Frappe imperceptible",
+        "damage": 20,
+        "maxUses": 4,
+        "remainingUses": 4,
+        "description": "Un coup si rapide que l'adversaire ne le voit pas venir.",
+        "image": "img/archere_tech1.png",
+        "type": "physical"
+      },
+      {
+        "name": "Le tueur de tigre",
+        "damage": 35,
+        "maxUses": 2,
+        "remainingUses": 2,
+        "description": "Une technique légendaire capable de tuer un tigre d'un seul coup.",
+        "image": "img/archere_tech2.png",
+        "type": "physical"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Mohamad Ali Jr",
+    "class": "Boxer",
+    "health": 85,
+    "maxHealth": 85,
+    "power": 6,
+    "defense": 5,
+    "speed": 10,
+    "description": "Fils de la légende de la boxe, Ali Jr a perfectionné le style de son père.",
+    "quote": "Flotter comme un papillon, piquer comme une abeille.",
+    "images": {
+      "idle": "img/assassin_idle.png",
+      "attack": "img/assassin_attack.png",
+      "guard": "img/assassin_guard.png",
+      "counter": "img/assassin_counter.png",
+      "portrait": "img/assassin_portrait.png"
+    },
+    "techniques": [
+      {
+        "name": "Frappe surprenante",
+        "damage": 40,
+        "maxUses": 2,
+        "remainingUses": 2,
+        "description": "Un coup de poing si rapide qu'il surprend même les combattants les plus expérimentés.",
+        "image": "img/assassin_tech1.png",
+        "type": "physical"
+      },
+      {
+        "name": "Rage de vaincre",
+        "damage": 25,
+        "maxUses": 3,
+        "remainingUses": 3,
+        "description": "Une série de coups inspirés par le désir de victoire.",
+        "image": "img/assassin_tech2.png",
+        "type": "physical"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Pickle",
+    "class": "Homme primitif",
+    "health": 95,
+    "maxHealth": 95,
+    "power": 9,
+    "defense": 8,
+    "speed": 6,
+    "description": "Un homme préhistorique ressuscité à notre époque, avec une force bestiale.",
+    "quote": "Grrr... (Je suis Pickle, je mange les forts!)",
+    "images": {
+      "idle": "img/soigneuse_idle.png",
+      "attack": "img/soigneuse_attack.png",
+      "guard": "img/soigneuse_guard.png",
+      "counter": "img/soigneuse_counter.png",
+      "portrait": "img/soigneuse_portrait.png"
+    },
+    "techniques": [
+      {
+        "name": "Grignotage",
+        "damage": 15,
+        "maxUses": 3,
+        "remainingUses": 3,
+        "description": "Pickle mord son adversaire avec ses dents puissantes.",
+        "image": "img/soigneuse_tech1.png",
+        "type": "special"
+      },
+      {
+        "name": "Charge du jurassique",
+        "damage": 30,
+        "maxUses": 2,
+        "remainingUses": 2,
+        "description": "Une charge bestiale qui rappelle les dinosaures qu'il chassait.",
+        "image": "img/soigneuse_tech2.png",
+        "type": "physical"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Miyamoto Musashi",
+    "class": "Samouraï",
+    "health": 110,
+    "maxHealth": 110,
+    "power": 8,
+    "defense": 7,
+    "speed": 7,
+    "description": "Le plus grand samouraï de l'histoire, ramené à la vie pour affronter les combattants modernes.",
+    "quote": "Deux lames, deux victoires.",
+    "images": {
+      "idle": "img/chevalier_idle.png",
+      "attack": "img/chevalier_attack.png",
+      "guard": "img/chevalier_guard.png",
+      "counter": "img/chevalier_counter.png",
+      "portrait": "img/chevalier_portrait.png"
+    },
+    "techniques": [
+      {
+        "name": "Slash imaginaire",
+        "damage": 35,
+        "maxUses": 2,
+        "remainingUses": 2,
+        "description": "Une coupe si rapide qu'elle semble ne pas avoir eu lieu jusqu'à ce que le sang jaillisse.",
+        "image": "img/chevalier_tech1.png",
+        "type": "slash"
+      },
+      {
+        "name": "Double slash",
+        "damage": 20,
+        "maxUses": 3,
+        "remainingUses": 3,
+        "description": "Technique à deux sabres qui frappe deux fois pour des dégâts impressionnants.",
+        "image": "img/chevalier_tech2.png",
+        "type": "slash"
+      }
+    ]
+  }
+]

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baki - Sélection des personnages</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="selection-page">
+    <div class="container">
+        <header>
+            <h1>Baki</h1>
+            <h2>Sélection des personnages</h2>
+        </header>
+
+        <main>
+            <div class="player-selection">
+                <div class="player-section" id="player1">
+                    <h3>Joueur 1</h3>
+                    <div class="character-portrait">
+                        <img id="player1-portrait" src="img/placeholder.png" alt="Portrait Joueur 1">
+                    </div>
+                    <div class="character-info">
+                        <h4 id="player1-name">Choisissez un personnage</h4>
+                        <p id="player1-class"></p>
+                        <div class="stats" id="player1-stats">
+                            <div class="stat-bar">
+                                <span class="stat-label">Santé:</span>
+                                <div class="stat-value" id="player1-health"></div>
+                            </div>
+                            <div class="stat-bar">
+                                <span class="stat-label">Puissance:</span>
+                                <div class="stat-value" id="player1-power"></div>
+                            </div>
+                            <div class="stat-bar">
+                                <span class="stat-label">Défense:</span>
+                                <div class="stat-value" id="player1-defense"></div>
+                            </div>
+                            <div class="stat-bar">
+                                <span class="stat-label">Vitesse:</span>
+                                <div class="stat-value" id="player1-speed"></div>
+                            </div>
+                        </div>
+                        <div class="techniques" id="player1-techniques"></div>
+                        <p id="player1-description" class="character-description"></p>
+                    </div>
+                </div>
+
+                <div class="character-selection">
+                    <div class="characters-grid" id="characters-grid">
+                        <!-- Les personnages seront générés ici dynamiquement -->
+                    </div>
+                </div>
+
+                <div class="player-section" id="player2">
+                    <h3>Joueur 2</h3>
+                    <div class="character-portrait">
+                        <img id="player2-portrait" src="img/placeholder.png" alt="Portrait Joueur 2">
+                    </div>
+                    <div class="character-info">
+                        <h4 id="player2-name">Choisissez un personnage</h4>
+                        <p id="player2-class"></p>
+                        <div class="stats" id="player2-stats">
+                            <div class="stat-bar">
+                                <span class="stat-label">Santé:</span>
+                                <div class="stat-value" id="player2-health"></div>
+                            </div>
+                            <div class="stat-bar">
+                                <span class="stat-label">Puissance:</span>
+                                <div class="stat-value" id="player2-power"></div>
+                            </div>
+                            <div class="stat-bar">
+                                <span class="stat-label">Défense:</span>
+                                <div class="stat-value" id="player2-defense"></div>
+                            </div>
+                            <div class="stat-bar">
+                                <span class="stat-label">Vitesse:</span>
+                                <div class="stat-value" id="player2-speed"></div>
+                            </div>
+                        </div>
+                        <div class="techniques" id="player2-techniques"></div>
+                        <p id="player2-description" class="character-description"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="controls">
+                <button id="start-button" disabled>Commencer le combat</button>
+                <div class="versus">VS</div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Combat Ultimate - Le jeu de combat tour par tour inspiré des plus grands combattants</p>
+        </footer>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
