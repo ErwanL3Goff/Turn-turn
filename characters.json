@@ -11,10 +11,10 @@
     "description": "Fils de Yujiro Hanma, le plus fort du monde. Baki cherche à surpasser son père.",
     "quote": "Le seul endroit où je peux me prouver est l'arène.",
     "images": {
-      "idle": "img/guerrier_idle.png",
-      "attack": "img/guerrier_attack.png",
-      "guard": "img/guerrier_guard.png",
-      "counter": "img/guerrier_counter.png",
+      "idle": "images/Baki/stance.png",
+      "attack": "images/Baki/attack.jpg",
+      "guard": "images/Baki/guard.jpg",
+      "counter": "images/Baki/contre.jpg",
       "portrait": "images/Baki/cell.jpg"
     },
     "techniques": [
@@ -24,7 +24,7 @@
         "maxUses": 3,
         "remainingUses": 3,
         "description": "Une frappe rapide et précise qui surprend l'adversaire.",
-        "image": "img/guerrier_tech1.png",
+        "image": "images/Baki/Frappe_furtive.jpg",
         "type": "physical"
       },
       {
@@ -33,7 +33,7 @@
         "maxUses": 1,
         "remainingUses": 1,
         "description": "Une technique de combat secrète qui frappe l'adversaire avec une vitesse fulgurante.",
-        "image": "img/guerrier_tech2.png",
+        "image": "images/Baki/cafard.jpg",
         "type": "physical"
       }
     ]
