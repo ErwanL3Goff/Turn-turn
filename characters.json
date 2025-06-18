@@ -11,7 +11,7 @@
     "description": "Fils de Yujiro Hanma, le plus fort du monde. Baki cherche à surpasser son père.",
     "quote": "Le seul endroit où je peux me prouver est l'arène.",
     "images": {
-      "idle": "images/Baki/stance.png",
+      "idle": "images/Baki/stance.jpg",
       "attack": "images/Baki/attack.jpg",
       "guard": "images/Baki/guard.jpg",
       "counter": "images/Baki/contre.jpg",
@@ -50,9 +50,9 @@
     "description": "Connu comme l'être le plus fort du monde, Yujiro est un combattant sans égal.",
     "quote": "Je suis le prédateur au sommet de tous les êtres vivants.",
     "images": {
-      "idle": "images/Yujiro/stance.png",
+      "idle": "images/Yujiro/stance.jpg",
       "attack": "images/Yujiro/attack.jpg",
-      "guard": "images/Yujiro/guard.jpg",
+      "guard": "images/Yujiro/guarde.jpg",
       "counter": "images/Yujiro/contre.jpg",
       "portrait": "images/Yujiro/cell.jpg"
     },
@@ -90,9 +90,9 @@
     "description": "L'homme le plus fort du Japon et chef du clan yakuza Hanayama'.",
     "quote": "Un justicier sans blessures n'est pas vraiment un véritable justicier.",
     "images": {
-      "idle": "images/Kaoru/stance.png",
+      "idle": "images/Kaoru/stance.jpg",
       "attack": "images/Kaoru/attack.jpg",
-      "guard": "images/Kaoru/guard.jpg",
+      "guard": "images/Kaoru/guarde.jpg",
       "counter": "images/Kaoru/contre.jpg",
       "portrait": "images/Kaoru/cell.jpg"
     },
@@ -130,7 +130,7 @@
     "description": "Grand maître du karaté, Doppo a perfectionné ses techniques au fil des années.",
     "quote": "Une vie entière d'entraînement pour un seul coup parfait.",
     "images": {
-      "idle": "images/Doppo/stance.png",
+      "idle": "images/Doppo/stance.jpeg",
       "attack": "images/Doppo/attack.jpg",
       "guard": "images/Doppo/guarde.jpg",
       "counter": "images/Doppo/contre.jpg",
